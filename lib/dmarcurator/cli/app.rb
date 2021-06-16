@@ -2,7 +2,8 @@
 module Dmarcurator
   module Cli
     class App
-      require "pry"
+      require 'pry'
+      require 'optparse'
 
       attr_reader :db_uri, :reports_path
 
@@ -51,7 +52,7 @@ module Dmarcurator
       end
 
       def initialize(db_path:, reports_path: nil)
-        @db_uri = "sqlite://#{File.expand_path(db_path)}"
+        @db_uri = "sqlite:///#{File.expand_path(db_path)}"
         @reports_path = reports_path
       end
 

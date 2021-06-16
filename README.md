@@ -4,12 +4,6 @@ Imports DMARC report XML into SQLite DB.
 
 - [More info on email authentication](https://jl.ly/Email/authcheat.html)
 
-## install
-
-Install sqlite3 bc it's cool and you need it
-`brew install sqlite3`
-
-`gem install dmarcurator`
 
 ## usage
 
@@ -18,4 +12,5 @@ Install sqlite3 bc it's cool and you need it
 
 ## how to browse db
 
+[SQLiteStudio](https://sqlitestudio.pl/) desktop app
 [SQLite-web](https://github.com/coleifer/sqlite-web) is a deec interface.
